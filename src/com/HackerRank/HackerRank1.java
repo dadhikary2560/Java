@@ -13,13 +13,20 @@ public class HackerRank1 {
 public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
+	String s = null;
 	System.out.println("value of n: "+n);
 	
 	//convert n to a string now, if n ranges between -100 and 100
 	if(n>=-100 && n<=100)
 	{
-		String s=String.valueOf(n);
+		s=String.valueOf(n);
+		//The above line converts Integer 25 to String "25"
 		System.out.println(s);
 	}
+	if(n==Integer.parseInt(s))
+		//Integer.parseInt converts String "25" to Integer 25
+		System.out.println("Good job");
+	else
+		System.out.println("Wrong Answer");
 }
 }
