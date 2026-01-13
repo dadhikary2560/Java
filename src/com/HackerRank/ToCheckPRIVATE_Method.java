@@ -5,5 +5,8 @@ public class ToCheckPRIVATE_Method extends PublicAccess{
 public static void main(String[] args) {
 	ToCheckPRIVATE_Method sc=new ToCheckPRIVATE_Method();
 	sc.myMethod();
+	
+	DefaultClass m1=new DefaultClass();
+	m1.myMethod();
 }
 }
