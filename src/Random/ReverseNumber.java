@@ -57,7 +57,7 @@ public class ReverseNumber {
 	int reverseNumber=obj.myMethod(num);
 	obj.methodArmstrong(num);
 	
-	System.out.println(reverseNumber);
+	System.out.println("reversed number is "+reverseNumber);
 	sc.close();
 	
 }
