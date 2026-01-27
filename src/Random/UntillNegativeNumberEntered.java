@@ -15,6 +15,7 @@ public class UntillNegativeNumberEntered {
 			if(num<0)
 				break;
 		}
+		sc.close();
 		System.out.println(count);
 	}
 	
