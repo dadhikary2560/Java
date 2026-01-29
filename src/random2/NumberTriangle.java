@@ -1,5 +1,4 @@
 package random2;
-
 import java.util.Scanner;
 
 //Generate and print a number triangle pattern using nested loops.
