@@ -2,6 +2,8 @@ package random2;
 
 import java.util.Scanner;
 
+
+
 //7. Calculate and print the factorial of every number from 1 to n.
 public class FactorialOfEachNumberFrom1toN {
 	private void myMethod(int last) {
