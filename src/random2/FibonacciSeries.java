@@ -2,6 +2,8 @@ package random2;
 
 import java.util.Scanner;
 
+
+
 //10. Print the Fibonacci series up to the required number of terms.
 public class FibonacciSeries {
 public static void main(String[] args) {
