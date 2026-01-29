@@ -1,5 +1,4 @@
 package random2;
-
 import java.util.Scanner;
 
 public class IsPrimeNumber {
