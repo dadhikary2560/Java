@@ -1,5 +1,4 @@
 package random2;
-
 import java.util.Scanner;
 
 //Print all possible pairs (i, j) where both i and j range from 1 to n.
