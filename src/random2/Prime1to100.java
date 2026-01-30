@@ -1,6 +1,7 @@
 package random2;
 
 
+
 //8. Print all prime numbers between 1 and 100.
 public class Prime1to100 {
 public static void main(String[] args) {
