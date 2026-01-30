@@ -1,5 +1,4 @@
 package random2;
-
 import java.util.Scanner;
 
 //Print all Pythagorean triplets whose values are less than or equal to n.
