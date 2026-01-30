@@ -1,5 +1,4 @@
 package random2;
-
 import java.util.Scanner;
 
 //Calculate and print the sum of even digits and the sum of odd digits 
