@@ -41,6 +41,48 @@ public class Phase5Programs {
 			System.out.print(arrayRcvd[i]+" ");
 		}
 	}
+	//Keep taking numbers from the user and print them until a negative 
+	//number appears, then stop the loop.
+	private void ifNegativeNumberFound() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("please enter numbers");
+		boolean isNegative=false;
+		while(isNegative==false)
+		{
+			int num=sc.nextInt();
+			if(num<0)
+				isNegative=true;
+			System.out.println(num);
+		}
+		sc.close();
+	}
+	//Skip all odd numbers and print only the even numbers.
+	private void printAllEvenNumbers() {
+		for(int i=1;i<=100;i++)
+		{
+			if(i%2!=0)
+				continue;
+			else
+				System.out.print(i+" ");
+		}
+	}
+	//Continuously add numbers in a loop and stop the loop 
+	//when the sum becomes greater than 100
+	private void stopLoopifSumGreaterThan100() {
+		Scanner sc=new Scanner(System.in);
+		int sum=0;
+		int num = 0;
+		while(sum<100)
+		{
+			num = sc.nextInt();
+			if(sum+num>100)
+				System.out.println("enter a lesser or equal value to"+(100-sum));
+			else
+				sum=sum+num;
+		}
+		System.out.println(sum);
+	sc.close();
+	}
 public static void main(String[] args) {
 	Phase5Programs obj=new Phase5Programs();
 	Scanner sc=new Scanner(System.in);
@@ -72,6 +114,12 @@ public static void main(String[] args) {
 		int num=sc.nextInt();
 		obj.ifNumberFoundTerminateLoop(arr, num);
 	}
+	if(choice==5)
+		obj.ifNegativeNumberFound();
+	if(choice==6)
+		obj.printAllEvenNumbers();
+	if(choice==7)
+		obj.stopLoopifSumGreaterThan100();
 	sc.close();
 }
 }
